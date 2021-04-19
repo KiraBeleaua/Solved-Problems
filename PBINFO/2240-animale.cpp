@@ -1,10 +1,13 @@
 #include <iostream>
+
 using namespace std;
 
 int main()
-{
-	int f, b, n, pagini;
-	cin >> f >> b >>n;
-	pagini = (b * 2 + f * 3) * n;
-	cout << pagini;
+{   int c, p ,g ,r;
+    cin>>c;
+    p=2*c;
+    g=2*p;
+    r=c+p+g;
+    cout<<r;
+    return 0;
 }
